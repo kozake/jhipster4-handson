@@ -32,3 +32,4 @@ NPMを用いてYeomanをインストールしてください。
 npm install -g yo
 ```
 
+VSCodeをWebサイトからインストールしてください。
