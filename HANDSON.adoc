@@ -224,7 +224,7 @@ yo jhipster:import-jdl ~/Downloads/jhipster-jdl.jh
 を上書きするかどうかを問われます。
 このファイルや他のファイルを上書きするには `a` と入力してください。
 
-`/ .gradlew` でアプリケーションを起動すると、生成したエンティティのCRUD画面が表示できます。
+`./gradlew` でアプリケーションを起動すると、生成したエンティティのCRUD画面が表示できます。
 
 既存で用意されている `admin` と `user` ユーザでいくつかブログ記事を作成してみてください。
 
@@ -433,7 +433,7 @@ public interface BlogRepository extends JpaRepository<Blog,Long> {
 この変更を行った後、 http://docs.spring.io/spring-boot/docs/current/reference/html/using-boot-devtools.html[Spring Boot's Developer tools]
 のおかげでアプリケーションが再起動し、 `BlogResource` が再コンパイルされます。
 
-http://localhost:8080/blogs に移動すると、現在のユーザーのブログだけが表示されます。
+http://localhost:8080/blog に移動すると、現在のユーザーのブログだけが表示されます。
 
 .管理者ブログ
 image::static/blogs-admin.png[Admin's blog, 1157, scaledwidth=100%]
